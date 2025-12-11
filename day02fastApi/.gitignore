@@ -1,0 +1,4 @@
+blog-env
+__pycache__
+requirements.txt
+blog.db
