@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-#chapter-00
+
 app = FastAPI()
 
 @app.get('/') # path operation decorator
@@ -59,7 +59,7 @@ def comments(id,limit=10):
     # fetch comments of blog with id = id
     return {'data':{'comment-1','comment-2'}}
 
-# chapter-03
+
 from pydantic import BaseModel
 class Blog(BaseModel):
     title:str
